@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Course companion for quantitative finance and risk materials.">
+  <title>Quantitative Finance &amp; Risk | Course Companion</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="#top" aria-label="Course home">
+        <span class="brand-mark" aria-hidden="true">QF</span>
+        <span>Quantitative Finance <small>&amp; Risk</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span><span aria-hidden="true">Menu</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#modules">Modules</a>
+        <a href="#resources">Resources</a>
+        <a href="#interviews">Interview prep</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Course companion · 2026 edition</p>
+          <h1>Build intuition.<br><span>Practice with purpose.</span></h1>
+          <p class="hero-lede">A focused home for lectures, readings, exercises, and a practical guide to quantitative-finance interviews.</p>
+          <div class="button-row">
+            <a class="button button-primary" href="materials/interview-preparation.pdf">Download interview guide <span aria-hidden="true">↓</span></a>
+            <a class="button button-secondary" href="#resources">Browse resources <span aria-hidden="true">→</span></a>
+          </div>
+          <p class="hero-note">Public teaching materials only. The authenticated problem bank is hosted separately.</p>
+        </div>
+
+        <aside class="course-card" aria-label="Course overview">
+          <div class="course-card-top">
+            <span>COURSE MAP</span><span>6 MODULES</span>
+          </div>
+          <ol class="course-map">
+            <li><span>01</span><div><strong>Foundations</strong><small>Markets, math &amp; instruments</small></div></li>
+            <li><span>02</span><div><strong>Financial institutions</strong><small>Banks, insurers &amp; funds</small></div></li>
+            <li><span>03</span><div><strong>Trading ecosystems</strong><small>Venues, liquidity &amp; execution</small></div></li>
+            <li><span>04</span><div><strong>Risk</strong><small>Market, credit &amp; operational</small></div></li>
+            <li><span>05</span><div><strong>Quantitative practice</strong><small>Models, data &amp; validation</small></div></li>
+            <li><span>06</span><div><strong>Career preparation</strong><small>Process, practice &amp; reflection</small></div></li>
+          </ol>
+        </aside>
+      </div>
+    </section>
+
+    <section class="notice-band" aria-label="Course update">
+      <div class="shell notice-inner">
+        <span class="status-dot" aria-hidden="true"></span>
+        <strong>Latest update</strong>
+        <span>The interview-preparation chapter now contains 50 selected questions organized by category.</span>
+      </div>
+    </section>
+
+    <section id="modules" class="section shell">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Learning path</p>
+          <h2>Course modules</h2>
+        </div>
+        <p>Start with the financial system, then move from products and institutions to modeling, risk, and professional practice.</p>
+      </div>
+
+      <div class="module-grid">
+        <article class="module-card"><span class="module-number">01</span><p class="tag">Core</p><h3>Financial foundations</h3><p>Market structure, instruments, valuation language, and the economic purpose of financial institutions.</p><a href="#resources">View materials <span aria-hidden="true">→</span></a></article>
+        <article class="module-card"><span class="module-number">02</span><p class="tag">Institutions</p><h3>Banks, credit &amp; insurance</h3><p>Balance sheets, lending, underwriting, solvency, regulation, and the transfer of financial risk.</p><a href="#resources">View materials <span aria-hidden="true">→</span></a></article>
+        <article class="module-card"><span class="module-number">03</span><p class="tag">Markets</p><h3>Trading ecosystems</h3><p>Order flow, liquidity, market making, execution, and how trading firms interact with exchanges.</p><a href="#resources">View materials <span aria-hidden="true">→</span></a></article>
+        <article class="module-card"><span class="module-number">04</span><p class="tag">Risk</p><h3>Risk measurement</h3><p>Market, credit, liquidity, model, and operational risk through practical measurement frameworks.</p><a href="#resources">View materials <span aria-hidden="true">→</span></a></article>
+        <article class="module-card"><span class="module-number">05</span><p class="tag">Methods</p><h3>Quantitative practice</h3><p>Probability, statistics, stochastic models, coding, validation, and responsible use of data.</p><a href="#resources">View materials <span aria-hidden="true">→</span></a></article>
+        <article class="module-card accent-card"><span class="module-number">06</span><p class="tag">Career</p><h3>Interview preparation</h3><p>Interview stages, preparation plans, institution-type differences, and 50 worked questions.</p><a href="materials/interview-preparation.pdf">Open the guide <span aria-hidden="true">↗</span></a></article>
+      </div>
+    </section>
+
+    <section id="resources" class="section resource-section">
+      <div class="shell">
+        <div class="section-heading">
+          <div><p class="eyebrow">Library</p><h2>Course resources</h2></div>
+          <p>Search the public materials or narrow the list by category. Replace the sample links as new files are added.</p>
+        </div>
+
+        <div class="resource-tools">
+          <label class="search-box">
+            <span class="sr-only">Search resources</span>
+            <span aria-hidden="true">⌕</span>
+            <input id="resource-search" type="search" placeholder="Search by title or topic…" autocomplete="off">
+          </label>
+          <div class="filters" role="group" aria-label="Filter resources">
+            <button class="filter is-active" type="button" data-filter="all">All</button>
+            <button class="filter" type="button" data-filter="reading">Readings</button>
+            <button class="filter" type="button" data-filter="lecture">Lectures</button>
+            <button class="filter" type="button" data-filter="career">Career</button>
+          </div>
+        </div>
+
+        <div id="resource-list" class="resource-list" aria-live="polite">
+          <article class="resource-row" data-category="career" data-search="interview preparation process questions probability statistics risk coding">
+            <div class="resource-icon pdf" aria-hidden="true">PDF</div>
+            <div><p class="resource-meta">Career · 88 pages</p><h3>Interview process and selected questions</h3><p>Preparation workflow, institution-type guidance, and 50 representative questions with worked solutions.</p></div>
+            <a class="resource-link" href="materials/interview-preparation.pdf" aria-label="Download interview preparation PDF">Download <span aria-hidden="true">↓</span></a>
+          </article>
+          <article class="resource-row" data-category="reading" data-search="textbook interview preparation chapter latex tex pdf source">
+            <div class="resource-icon source" aria-hidden="true">TEX</div>
+            <div><p class="resource-meta">Textbook · Source files</p><h3>Interview-preparation textbook chapter</h3><p>The latest standalone chapter in PDF and Overleaf-ready XeLaTeX formats.</p></div>
+            <div class="resource-actions">
+              <a class="resource-link" href="textbook/interview-preparation/interview_process_and_selected_questions.pdf">PDF <span aria-hidden="true">↓</span></a>
+              <a class="resource-link" href="textbook/interview-preparation/interview_process_and_selected_questions.tex">TeX <span aria-hidden="true">↓</span></a>
+            </div>
+          </article>
+          <article class="resource-row" data-category="reading" data-search="financial system institutions markets foundations textbook reading">
+            <div class="resource-icon reading" aria-hidden="true">TXT</div>
+            <div><p class="resource-meta">Reading · Sample</p><h3>Financial-system overview</h3><p>A placeholder for the core textbook reading and accompanying chapter notes.</p></div>
+            <span class="resource-link muted">Coming soon</span>
+          </article>
+          <article class="resource-row" data-category="lecture" data-search="risk measurement market credit liquidity lecture slides">
+            <div class="resource-icon slides" aria-hidden="true">SLD</div>
+            <div><p class="resource-meta">Lecture · Sample</p><h3>Risk measurement framework</h3><p>A placeholder for lecture slides on risk taxonomy, measurement, limits, and model governance.</p></div>
+            <span class="resource-link muted">Coming soon</span>
+          </article>
+          <article class="resource-row" data-category="lecture" data-search="trading market microstructure liquidity execution lecture slides">
+            <div class="resource-icon slides" aria-hidden="true">SLD</div>
+            <div><p class="resource-meta">Lecture · Sample</p><h3>Trading ecosystems</h3><p>A placeholder for class materials on venues, market makers, order flow, and execution.</p></div>
+            <span class="resource-link muted">Coming soon</span>
+          </article>
+        </div>
+        <p id="empty-state" class="empty-state" hidden>No resources match that search.</p>
+      </div>
+    </section>
+
+    <section id="interviews" class="section shell interview-grid">
+      <div>
+        <p class="eyebrow">Interview preparation</p>
+        <h2>A process, not a pile of questions</h2>
+        <p class="large-copy">The guide starts with how interviews work, then connects each stage to a preparation method. The selected questions are grouped by skill area so students can diagnose gaps and practice deliberately.</p>
+        <a class="text-link" href="materials/interview-preparation.pdf">Read the complete guide <span aria-hidden="true">→</span></a>
+      </div>
+      <ol class="process-list">
+        <li><span>1</span><div><strong>Map the process</strong><p>Understand screening, assessments, technical rounds, case work, and final interviews.</p></div></li>
+        <li><span>2</span><div><strong>Prioritize by role</strong><p>Use institution type and role expectations to decide what deserves the most practice.</p></div></li>
+        <li><span>3</span><div><strong>Practice in passes</strong><p>Solve unaided, review the failure mode, then answer a variation under time pressure.</p></div></li>
+        <li><span>4</span><div><strong>Review evidence</strong><p>Track accuracy, clarity, speed, and recurring mistakes—not just the number of questions completed.</p></div></li>
+      </ol>
+    </section>
+
+    <section class="secure-panel">
+      <div class="shell secure-inner">
+        <div><p class="eyebrow light">Separate application</p><h2>Authenticated problem bank</h2><p>The searchable question bank, contribution access, user accounts, and activity logs belong in a secure backend—not in this public static site.</p></div>
+        <div class="architecture" aria-label="Suggested architecture"><span>GitHub Pages<br><small>public course site</small></span><b aria-hidden="true">+</b><span>AWS<br><small>login, API &amp; database</small></span></div>
+      </div>
+    </section>
+
+    <section id="about" class="section shell about-grid">
+      <div><p class="eyebrow">About</p><h2>Designed for continuous course updates</h2></div>
+      <div><p>This sample is intentionally lightweight: plain HTML, CSS, and JavaScript, with no framework or build step. It can be published directly through GitHub Pages and maintained by instructors or students.</p><p>All content in this demo is generic. Add instructor details, syllabus dates, accessibility contacts, and approved materials before public launch.</p></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner"><span>Quantitative Finance &amp; Risk</span><span>Course companion · <span id="year">2026</span></span></div>
+  </footer>
+</body>
+</html>
